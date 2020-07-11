@@ -21,10 +21,18 @@
   width: 100%;
 }
 
+.background video{
+  width: 100%;
+}
+
 .title{
   position: absolute;
   z-index: 999;
   width: 100%;
+}
+
+.title video{
+  width:100%;
 }
 
 .copyright {
