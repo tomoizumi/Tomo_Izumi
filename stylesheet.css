@@ -3,13 +3,17 @@
 }
 
 @font-face {
-  font-family: 'Sans';
-   src:url(/SF-Pro-Text-Ultraligh.woff)format("woff");
+  font-family: 'SF-text';
+   src:url(SF-Pro-Text-Ultraligh.woff)format("woff");
 }
 
 @font-face {
   font-family:'SF-dis';
    src:url(/SF-Pro-Display-Ultralight.woff)format("woff");
+}
+
+.top{
+  width: 100%;
 }
 
 .copyright {
@@ -20,7 +24,7 @@
 }
 
 .copyright p {
-font-family:'Sans';
+font-family:'SF-text';
   font-weight:100;
   font-size: 100%;
   text-align: center;
