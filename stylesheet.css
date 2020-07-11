@@ -34,7 +34,7 @@
 }
 
 .title video{
-  width: 50%;
+  width: 100%;
   position: absolute;
   z-index: 999;
 }
