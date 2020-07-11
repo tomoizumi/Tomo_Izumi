@@ -28,15 +28,14 @@
 .title{
   position: absolute;
   z-index: 999;
-  width: 100%;
+  width: 50%;
+  top:25%;
+  left:25%;
 }
 
 .title video{
-  width:50%;
   position: absolute;
   z-index: 999;
-  top:-50%;
-  left:25%;
 }
 
 .copyright {
