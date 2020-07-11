@@ -12,6 +12,16 @@
    src:url(/SF-Pro-Display-Ultralight.woff)format("woff");
 }
 
+@font-face {
+  font-family:'hiraginoW0';
+   src:url(/ヒラギノ角ゴシック W0.woff)format("woff");
+}
+
+@font-face {
+  font-family:'hiraginoW1';
+   src:url(/ヒラギノ角ゴシック W1.woff)format("woff");
+}
+
 .top{
   position:relative;;
   width: 100%;
@@ -37,6 +47,15 @@
   width: 100%;
   position: absolute;
   z-index: 999;
+}
+
+.work{
+  height: 100%;
+}
+
+.work p{
+  font-family:"hiraginoW1";
+  font-size: 200%;
 }
 
 .copyright {
