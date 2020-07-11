@@ -1,0 +1,35 @@
+* {
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: 'Sans';
+   src:url(/SF-Pro-Text-Ultraligh.woff)format("woff");
+}
+
+@font-face {
+  font-family:'SF-dis';
+   src:url(/SF-Pro-Display-Ultralight.woff)format("woff");
+}
+
+.copyright {
+  width: 100%;
+  text-align: center;
+  position: absolute;
+  bottom:0;
+}
+
+.copyright p {
+font-family:'Sans';
+  font-weight:100;
+  font-size: 100%;
+  text-align: center;
+  bottom: 0;
+}
+
+
+/*tablet*//*tablet*//*tablet*//*tablet*//*tablet*//*tablet*//*tablet*//*tablet*//*tablet*//*tablet*//*tablet*/
+
+
+
+/*SMP*//*SMP*//*SMP*//*SMP*//*SMP*//*SMP*//*SMP*//*SMP*//*SMP*//*SMP*//*SMP*//*SMP*//*SMP*/
