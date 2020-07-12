@@ -188,6 +188,18 @@ font-family:'hiraginoW0';
     font-size: 100%;
   }
 
+  .task{
+    width: 100%;
+  }
+
+  .img{
+    width: 100%;
+  }
+
+  .comment{
+    width: 100%;
+  }
+
   .comment p{
     font-size: 50%;
   }
