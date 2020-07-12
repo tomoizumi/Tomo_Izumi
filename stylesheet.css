@@ -67,8 +67,21 @@ ul{
 li{
   display: inline;
   width:30%;
-  padding-left: 10%;
-  padding-right: 10%;
+}
+
+#title{
+  padding-left: 15%;
+  padding-left: 15%;
+}
+
+#img{
+  padding-left: 15%;
+  padding-left: 15%;
+}
+
+#comment{
+  padding-left: 15%;
+  padding-left: 15%;
 }
 
 .skill{
