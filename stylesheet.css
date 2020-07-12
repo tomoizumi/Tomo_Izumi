@@ -182,3 +182,26 @@ font-family:'hiraginoW0';
 
 }
 /*SMP*//*SMP*//*SMP*//*SMP*//*SMP*//*SMP*//*SMP*//*SMP*//*SMP*//*SMP*//*SMP*//*SMP*//*SMP*/
+@media(max-width:1000px){
+
+  .work p{
+    font-size: 100%;
+  }
+
+  .comment p{
+    font-size: 50%;
+  }
+
+  .skill p{
+    font-size: 100%;
+  }
+
+  .contact p{
+    font-size: 100%;
+  }
+
+  .copyright p {
+    font-size: 80%;
+  }
+
+}
