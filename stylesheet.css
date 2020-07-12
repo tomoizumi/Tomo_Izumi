@@ -51,7 +51,7 @@
 
 .fadeIn {
  opacity: 0;
- transform : translate(0, 100px);
+ transform : translate(0, 50px);
  transition : all 2000ms;
 }
 
