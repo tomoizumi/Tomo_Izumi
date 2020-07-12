@@ -1,48 +1,121 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tomo_Izumi</title>
-    <link rel="stylesheet" type="text/css" href="stylesheet.css">
-  </head>
-  <body>
-    <header>
+* {
+  box-sizing: border-box;
+}
 
-    </header>
-   <main>
-     <div class="top">
-     <div class="background"><video src="top_back.mp4" autoplay muted loop autoplay muted></div>
-     <div class="title"><video src="Tomo_Izumi.mp4" autoplay muted></div>
-     <div class="work">
-       <p>やっていること / やりたいこと</p>
-       <ul>
-         <li><p>HP</p></li>
-         <li><p>App</p></li>
-         <li><p>3D</li>
-       </ul>
-       <ul>
-         <li><img src=""></li>
-         <li><img src=""></li>
-         <li><img src=""></li>
-       </ul>
-       <ul>
-         <li><img src=""></li>
-         <li><img src=""></li>
-         <li><img src=""></li>
-     </div>
-     <div class="skill">
-       <p id="skillTitle">スキル<p/>
-       <p>HTML / CSS&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;JQuery&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;JavaScript&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;React&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Python</p>
-       <p>Illustrator&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;AfterEffect</p>
-     </div>
-     <div class="contact">
-       <p id="contactTitle">仕事の依頼</p>
-       <p>仕事の依頼・相談は<a href="https://twitter.com/tomo_hisakawa">Twitter</a>のDMにてお願い致します</p>
-     </div>
-   </main>
-   <footer>
-     <div class="copyright"><p>2020©️Copyright <a href="https://twitter.com/tomo_hisakawa">Tomo_Izumi</a></p></div>
-   </footer>
-  </body>
-</html>
+@font-face {
+  font-family: 'SF-text';
+   src:url(SF-Pro-Text-Ultraligh.woff)format("woff");
+}
+
+@font-face {
+  font-family:'SF-dis';
+   src:url(/SF-Pro-Display-Ultralight.woff)format("woff");
+}
+
+@font-face {
+  font-family:'hiraginoW0';
+   src:url("ヒラギノ角ゴシック W0.woff")format("woff");
+}
+
+@font-face {
+  font-family:'hiraginoW1';
+   src:url("ヒラギノ角ゴシック W1.woff")format("woff");
+}
+
+.top{
+  position:relative;;
+  width: 100%;
+}
+
+.background{
+  width: 100%;
+}
+
+.background video{
+  width: 100%;
+}
+
+.title{
+  position: absolute;
+  z-index: 999;
+  width: 50%;
+  top:20%;
+  left:25%;
+}
+
+.title video{
+  width: 100%;
+  position: absolute;
+  z-index: 999;
+}
+
+.work{
+  height: 100%;
+  margin-top: 10%;
+}
+
+.work p{
+  font-family:"hiraginoW1";
+  font-size: 200%;
+  text-align: center;
+}
+
+.ul{
+  float: left;
+}
+
+.skill{
+  height: 100%;
+  margin-top: 10%;
+}
+
+#skillTitle{
+  font-family:"hiraginoW1";
+  font-size: 200%;
+  text-align: center;
+}
+
+.skill p{
+  font-family:"hiraginoW0";
+  font-size: 150%;
+  text-align: center;
+}
+
+#contactTitle{
+  font-family:"hiraginoW1";
+  font-size: 200%;
+  text-align: center;
+}
+
+.contact{
+  margin-top: 10%;
+}
+
+.contact p{
+  font-family:"hiraginoW0";
+  font-size: 150%;
+  text-align: center;
+}
+
+footer{
+  margin-top: 10%;
+  height: 10%;
+}
+
+.copyright {
+  width: 100%;
+  text-align: center;
+}
+
+.copyright p {
+font-family:'SF-text';
+  font-weight:100;
+  font-size: 100%;
+}
+
+
+/*tablet*//*tablet*//*tablet*//*tablet*//*tablet*//*tablet*//*tablet*//*tablet*//*tablet*//*tablet*//*tablet*/
+
+
+
+/*SMP*//*SMP*//*SMP*//*SMP*//*SMP*//*SMP*//*SMP*//*SMP*//*SMP*//*SMP*//*SMP*//*SMP*//*SMP*/
