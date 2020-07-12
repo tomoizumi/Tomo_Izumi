@@ -67,10 +67,8 @@ ul{
 li{
   display: inline;
   width:30%;
-}
-
-li p{
-  width:30%;
+  padding-left: 10%;
+  padding-right: 10%;
 }
 
 .skill{
