@@ -61,7 +61,12 @@
 }
 
 .ul{
+  text-decoration: none;
   float: left;
+}
+
+.li{
+  width:30%;
 }
 
 .skill{
