@@ -14,12 +14,12 @@
 
 @font-face {
   font-family:'hiraginoW0';
-   src:url(/ヒラギノ角ゴシック W0.woff)format("woff");
+   src:url("/ヒラギノ角ゴシック W0.woff")format("woff");
 }
 
 @font-face {
   font-family:'hiraginoW1';
-   src:url(/ヒラギノ角ゴシック W1.woff)format("woff");
+   src:url("/ヒラギノ角ゴシック W1.woff")format("woff");
 }
 
 .top{
