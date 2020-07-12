@@ -51,6 +51,7 @@
 
 .work{
   height: 100%;
+  margin-top: 10%;
 }
 
 .work p{
@@ -61,6 +62,7 @@
 
 .skill{
   height: 100%;
+  margin-top: 10%;
 }
 
 #skillTitle{
@@ -79,6 +81,10 @@
   font-family:"hiraginoW1";
   font-size: 200%;
   text-align: center;
+}
+
+.contact{
+  margin-top: 10%;
 }
 
 .contact p{
