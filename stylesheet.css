@@ -68,17 +68,8 @@
 
 .work p{
   font-family:"hiraginoW1";
-  font-size: 200%;,
+  font-size: 200%;
   text-align: center;
-}
-
-ul{
-  width: 100%;
-}
-
-li{
-  display: inline;
-  width:30%;
 }
 
 .task{
