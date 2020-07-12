@@ -55,7 +55,7 @@
  transition : all 2000ms;
 }
 
-.fadeIn.scrollIn{ß
+.fadeIn.scrollIn{
  opacity: 1;
  transform: translate(0, 0);
 }
