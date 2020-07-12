@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tomo_Izumi</title>
     <link rel="stylesheet" type="text/css" href="stylesheet.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
   </head>
   <body>
     <header>
@@ -14,7 +15,7 @@
      <div class="top">
      <div class="background"><video src="top_back.mp4" autoplay muted loop autoplay muted></div>
      <div class="title"><video src="Tomo_Izumi.mp4" autoplay muted></div>
-     <div class="work">
+     <div class="work" id="fadeIn">
        <p>やっていること / やりたいこと</p>
        <div class="task"><p>HP</p></div>
        <div class="task"><p>App</p></div>
@@ -23,6 +24,7 @@
          <li><img src="HP.jpeg"></li>
          <li><img src="App.jpeg"></li>
          <li><img src="3D.jpeg"></li>
+       </ul>
        <div class="comment">
          <p>HTML/CSS, JQuery, Reactとかを使ってHPを作成しています。</p>
          <p>WordPressの使い方は分からない。</p>
@@ -55,12 +57,13 @@
       <div class="comment">
          <p>作曲したいよね。</li>
       </div>
-      <div class="skill">
+    </div>
+      <div class="skill" id="fadeIn">
        <p id="skillTitle">スキルとか<p/>
        <p>HTML / CSS&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;JQuery&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;JavaScript&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;React&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Python</p>
        <p>Illustrator&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;AfterEffect</p>
      </div>
-     <div class="contact">
+     <div class="contact" id="fadeIn">
        <p id="contactTitle">お仕事の依頼</p>
        <p>仕事の依頼・相談は<a href="https://twitter.com/tomo_hisakawa">Twitter</a>のDMにてお願い致します</p>
      </div>
@@ -68,5 +71,6 @@
    <footer>
      <div class="copyright"><p>2020©️Copyright <a href="https://twitter.com/tomo_hisakawa">Tomo_Izumi</a></p></div>
    </footer>
+   <script src="index.js"></script>
   </body>
 </html>

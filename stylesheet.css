@@ -49,6 +49,17 @@
   z-index: 999;
 }
 
+#fadeIn {
+ opacity: 0;
+ transform : translate(0, 100px);
+ transition : all 2000ms;
+}
+
+#fadein.scrollin{
+ opacity: 1;
+ transform: translate(0, 0);
+}
+
 .work{
   width: 100%;
   margin-top: 10%;
