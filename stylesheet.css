@@ -69,6 +69,24 @@
   text-align: center;
 }
 
+.skill p{
+  font-family:"hiraginoW0";
+  font-size: 150%;
+  text-align: center;
+}
+
+#contactTitle{
+  font-family:"hiraginoW1";
+  font-size: 200%;
+  text-align: center;
+}
+
+.contact p{
+  font-family:"hiraginoW0";
+  font-size: 150%;
+  text-align: center;
+}
+
 .copyright {
   width: 100%;
   text-align: center;
