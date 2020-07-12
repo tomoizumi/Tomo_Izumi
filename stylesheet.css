@@ -68,7 +68,7 @@
 
 .work p{
   font-family:"hiraginoW1";
-  font-size: 200%;
+  font-size: 200%;,
   text-align: center;
 }
 
@@ -170,7 +170,11 @@ font-family:'hiraginoW0';
 
 
 /*tablet*//*tablet*//*tablet*//*tablet*//*tablet*//*tablet*//*tablet*//*tablet*//*tablet*//*tablet*//*tablet*/
+@media(max-width:1500px){
 
+.skill{
+  margin-top: 70%;
+}
 
-
+}
 /*SMP*//*SMP*//*SMP*//*SMP*//*SMP*//*SMP*//*SMP*//*SMP*//*SMP*//*SMP*//*SMP*//*SMP*//*SMP*/
