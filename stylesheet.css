@@ -79,9 +79,11 @@ li{
   padding-right: 12%;
 }
 
-#comment li{
-  padding-left: 5%;
-  padding-right: 5%;
+.comment{
+  display: inline-block;
+  width: 30%;
+  text-align: center;
+  float: left;
 }
 
 .skill{
