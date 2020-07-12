@@ -62,11 +62,10 @@
 
 ul{
   width: 100%;
-  list-style: none;
-  float: left;
 }
 
 li{
+  display: inline;
   width:30%;
 }
 
