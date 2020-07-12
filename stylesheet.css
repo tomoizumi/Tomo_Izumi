@@ -69,8 +69,12 @@ li{
   width:30%;
 }
 
-li p img{
+li p{
   width:30%;
+}
+
+li img{
+  width: 30%;
 }
 
 .skill{
