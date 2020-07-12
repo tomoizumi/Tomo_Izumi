@@ -4,7 +4,7 @@ $(window).scroll(function (){
          scroll = $(window).scrollTop(),
          windowHeight = $(window).height();
        if (scroll > elemPos - windowHeight + (windowHeight/3)){
-           $(this).addClass('scrollin');
+           $(this).addClass('scrollIn');
          }
      });
 });
