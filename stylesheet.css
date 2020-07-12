@@ -61,7 +61,8 @@
 }
 
 ul{
-  text-decoration: none;
+  width: 100%;
+  list-style: none;
   float: left;
 }
 
