@@ -49,13 +49,13 @@
   z-index: 999;
 }
 
-#fadeIn {
+.fadeIn {
  opacity: 0;
  transform : translate(0, 100px);
  transition : all 2000ms;
 }
 
-#fadein.scrollin{
+.fadein.scrollin{
  opacity: 1;
  transform: translate(0, 0);
 }
