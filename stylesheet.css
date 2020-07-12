@@ -204,7 +204,15 @@ font-family:'hiraginoW0';
     font-size: 50%;
   }
 
+  #skillTitle{
+    font-size: 100%;
+  }
+
   .skill p{
+    font-size: 50%;
+  }
+
+  #contactTitle{
     font-size: 50%;
   }
 
