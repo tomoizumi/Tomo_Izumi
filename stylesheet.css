@@ -157,18 +157,6 @@ font-family:'hiraginoW0';
   font-size: 80%;
 }
 
-.task{
-  width: 33%;
-}
-
-.img{
-  width: 33%;
-}
-
-.comment{
-  width: 33%;
-}
-
 }
 /*SMP*//*SMP*//*SMP*//*SMP*//*SMP*//*SMP*//*SMP*//*SMP*//*SMP*//*SMP*//*SMP*//*SMP*//*SMP*/
 @media(max-width:1000px){
