@@ -184,24 +184,20 @@ header{
 
   .background{
     display: none;
-    width: 100%;
   }
 
   .background_SMP{
     display: block;
-    width: 250%;
-    overflow-x:hidden;
+    width: 100%;
   }
 
   .background video{
     display: none;
-    width: 200%;
   }
 
   .background_SMP video{
     display: block;
-    width: 250%;
-    text-align: center;
+    width: 100%;
   }
 
   .work p{
