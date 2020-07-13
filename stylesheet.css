@@ -99,6 +99,10 @@ header{
   text-align: center;
 }
 
+.comment{
+  padding-bottom: 0;
+}
+
 .comment p{
   font-family:"hiraginoW0";
   font-size: 100%;
@@ -210,6 +214,10 @@ header{
 
   .HP,.App,.Dim,.Animation,.Drawing,.Music{
     width: 100%;
+  }
+
+  .comment{
+    padding-bottom: 5%;
   }
 
   .comment p{
