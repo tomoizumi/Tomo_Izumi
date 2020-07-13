@@ -173,15 +173,7 @@ font-family:'hiraginoW0';
     font-size: 100%;
   }
 
-  .task{
-    width: 100%;
-  }
-
-  .img{
-    width: 100%;
-  }
-
-  .comment{
+  .HP,.App,.Dim,.Animation,.Drawing,.Music{
     width: 100%;
   }
 
