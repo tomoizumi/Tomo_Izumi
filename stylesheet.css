@@ -228,6 +228,10 @@ header{
     font-size: 120%;
   }
 
+  .skill{
+    margin-top: 100%;
+  }
+
   .skill p{
     font-size: 70%;
   }
