@@ -190,6 +190,7 @@ header{
   .background_SMP{
     display: block;
     width: 250%;
+    overflow-x:hidden;
   }
 
   .background video{
