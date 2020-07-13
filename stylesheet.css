@@ -229,7 +229,7 @@ header{
   }
 
   .skill{
-    margin-top: 100%;
+    margin-top: 120%;
   }
 
   .skill p{
@@ -240,12 +240,17 @@ header{
     font-size: 120%;
   }
 
-  footer{
+  .contact{
     margin-top: 20%;
+    margin-bottom: 20%;
   }
 
   .contact p{
     font-size: 70%;
+  }
+
+  footer{
+    margin-top: 20%;
   }
 
   .copyright p {
