@@ -28,10 +28,22 @@
 }
 
 .background{
+  display: block;
+  width: 100%;
+}
+
+.background_SMP{
+  display: none;
   width: 100%;
 }
 
 .background video{
+  display: block;
+  width: 100%;
+}
+
+.background_SMP video{
+  display: none;
   width: 100%;
 }
 
@@ -160,6 +172,26 @@ font-family:'hiraginoW0';
 }
 /*SMP*//*SMP*//*SMP*//*SMP*//*SMP*//*SMP*//*SMP*//*SMP*//*SMP*//*SMP*//*SMP*//*SMP*//*SMP*/
 @media(max-width:1000px){
+
+  .background{
+    display: none;
+    width: 100%;
+  }
+
+  .background_SMP{
+    display: block;
+    width: 100%;
+  }
+
+  .background video{
+    display: none;
+    width: 100%;
+  }
+
+  .background_SMP video{
+    display: block;
+    width: 100%;
+  }
 
   .work p{
     font-size: 100%;
