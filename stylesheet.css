@@ -236,6 +236,10 @@ header{
     font-size: 120%;
   }
 
+  footer{
+    margin-top: 20%;
+  }
+
   .contact p{
     font-size: 70%;
   }
