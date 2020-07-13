@@ -200,6 +200,10 @@ header{
     width: 100%;
   }
 
+  .title{
+    top:10%;
+  }
+
   .work p{
     font-size: 100%;
   }
