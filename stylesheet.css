@@ -22,6 +22,10 @@
    src:url("ヒラギノ角ゴシック W1.woff")format("woff");
 }
 
+header{
+  display: none;
+}
+
 .top{
   position:relative;;
   width: 100%;
@@ -172,6 +176,11 @@ font-family:'hiraginoW0';
 }
 /*SMP*//*SMP*//*SMP*//*SMP*//*SMP*//*SMP*//*SMP*//*SMP*//*SMP*//*SMP*//*SMP*//*SMP*//*SMP*/
 @media(max-width:1000px){
+
+header{
+  display: block;
+  height: 200px;
+}
 
   .background{
     display: none;
