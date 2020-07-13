@@ -79,6 +79,10 @@
   float: left;
 }
 
+.task,.img,.comment{
+  text-align: center;
+}
+
 .comment p{
   font-family:"hiraginoW0";
   font-size: 100%;
