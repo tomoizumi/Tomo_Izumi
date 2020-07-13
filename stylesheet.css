@@ -179,7 +179,7 @@ font-family:'hiraginoW0';
 
 header{
   display: block;
-  height: 100px;
+  height: 80px;
 }
 
   .background{
@@ -189,7 +189,7 @@ header{
 
   .background_SMP{
     display: block;
-    width: 200%;
+    width: 250%;
   }
 
   .background video{
@@ -199,7 +199,8 @@ header{
 
   .background_SMP video{
     display: block;
-    width: 100%;
+    width: 250%;
+    text-align: center;
   }
 
   .work p{
